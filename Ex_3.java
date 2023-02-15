@@ -63,7 +63,7 @@ public class Ex_3 {
         try {
             div = num1 / num2;
             System.out.println("Деление чисел: " + num1 + " / " + num2);
-            System.out.println("Ответ: " + div);
+            System.out.printf("Ответ: %.2f  ", div);
         } catch (ArithmeticException e) {
             System.out.println("На 0 делить нельзя!");
         }
